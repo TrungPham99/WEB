@@ -1,0 +1,273 @@
+
+/* header */
+
+header .container .row .navbar{
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+header .container .row .navbar .navbar-brand{
+    top: 20px;
+    font-size: 30px;
+    color: yellow;
+    position: absolute;
+}
+
+header .container .row .navbar .collapse{
+    top: 20px;
+    left: 53%;
+    font-size: 19px;
+    position: absolute;
+}
+
+header .container .row .navbar .collapse ul li a{
+    color: white;
+}
+/* main */
+
+.main1{
+    width: 100%;
+    height: 700px;  
+    background:url(/header-bg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.main1 h2{
+    padding-top: 200px;
+
+}
+
+.main1 h1{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 75px;
+}
+
+.main1 .btn{
+    font-size: 20px;
+    width: 220px;
+    height: 70px;
+    background-color: yellow;
+    border: none;
+}
+
+.main2{
+    text-align: center;
+}
+
+.main2 h1{
+    padding-top: 100px;
+}
+
+.main2 p{
+    padding-bottom: 20px;
+}
+
+.main3{
+    text-align: center;
+    background: whitesmoke;
+}
+
+.main3 .container .row .portfolio{
+
+    background: white;
+}
+
+.main3 .container .row .portfolio .anh{
+    width: 100%;
+    z-index: 1;
+}
+.main3 .container .row .portfolio{
+    position: relative;
+}
+.main3 .container .row .portfolio .nen{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    opacity: 0;
+}
+.main3 .container .row .portfolio:hover .nen{
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.main4{
+    text-align: center;
+    width: 100%;
+    height: 2500px;
+}
+
+.main4 hr{
+    width: 1100px;
+    transform: rotate(90deg);
+    background: black;
+    z-index: 10;
+    margin-top: -100px;
+}
+.main4 .li{
+    list-style-type: none;
+    display: flex;
+    height: 400px;
+}
+
+.main4 .text1{
+    text-align: right;
+    width: 38%;
+}
+
+.main4 li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    z-index: 1;
+}
+
+.main4 .text2{
+    text-align: left;
+    width: 38%;
+}
+
+.main5{
+    height: 800px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.avatar{
+    width: 250px;
+    border-radius: 50%;
+
+}
+
+.fab{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main5 .container .container .row{
+    height: 450px;
+}
+
+.main5 .container .row{
+    justify-content: center;
+}
+
+@media(max-width:576px){
+    header .container .row .navbar .collapse{
+        font-size: 10px;
+    }
+
+    header .container .row .navbar{
+        width: 100%;
+    }
+    
+    header .container .row .navbar .navbar-brand{
+        top: 20px;
+        font-size: 25px;
+        color: yellow;
+
+    }
+    
+    .main1{
+        width: 100%;
+        height: 500px;  
+        background:url(/header-bg.jpg);
+        background-size: cover;
+        color: white;
+        text-align: center;
+    }
+    
+    .main1 h2{
+        padding-top: 150px;
+        font-size:20px;
+    
+    }
+    
+    .main1 h1{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+    
+    .main1 .btn{
+        font-size: 20px;
+        width: 220px;
+        height: 70px;
+        background-color: yellow;
+        border: none;
+    }
+    
+    
+    .main4 hr{
+        width: 1100px;
+        transform: rotate(90deg);
+        background: black;
+        z-index: 10;
+        margin-top: -180px;
+        margin-left: -500px;
+    }
+    .main4 .li{
+        list-style-type: none;
+        display: flex;
+        height: 400px;
+    }
+    
+    .main4 .text1{
+        text-align: left;
+        width: 80%;
+        position: absolute;
+        padding-left: 120px;
+    }
+    
+    .main4 li img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        z-index: 1;
+        position: absolute;
+        padding-left: -500px;
+        margin: auto;
+    }
+    
+    .main4 .text2{
+        text-align: left;
+        width: 80%;
+        position: absolute;
+        padding-left: 120px;
+    }
+
+    .main5{
+        height: 2400px;
+        background: whitesmoke;
+        text-align: center;
+    }
+    
+    .avatar{
+        width: 250px;
+        border-radius: 50%;
+    
+    }
+    
+    .fab{
+        font-size: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .main5 .container .container .row{
+        height: 450px;
+    }
+    
+    .main5 .container .p{
+        justify-content: center;
+        padding-top: 700px;
+}
+
+

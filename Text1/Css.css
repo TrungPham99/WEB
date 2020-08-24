@@ -1,0 +1,210 @@
+/* header */
+.navbar{
+    opacity: 5;
+
+}
+.navbar .navbar-brand{
+    font-size: 21px;
+    color: gray;
+    margin-left: 103px;
+    margin-top: 8px;
+}
+.navbar .navbar-brand:hover{
+    color: tomato;
+}
+.navbar .collapse .navbar-nav{
+    margin-right: 90px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: gray;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: tomato;
+}
+
+/* main */
+.frame1{
+    background-image: url(/window.jpg);
+    background-size: cover;
+    padding-top: 1px;
+    text-align: center;
+    height: 700px;
+    opacity: 95%;
+}
+.frame1 .title1{
+    margin-top: 170px;
+    color: white;
+    text-align: center; 
+    font-size: 61px;
+}
+
+.frame1 hr{
+    margin-top: 35px;
+    width: 45px;
+    padding: 1px;
+}
+
+.frame1 .text1{
+    margin-top: 25px;
+    color: white;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.frame1 .btn{
+    height: 55px;
+    width: 185px;
+    border-radius: 50px;
+    background:tomato;
+    border: none;
+    margin-top: 45px;
+    font-size: 14px;
+}
+
+.frame1 .btn:hover{
+    background: orangered;
+}
+
+.main1{
+    height: 500px;
+    color: white;
+    background-color: tomato;
+    padding-top: 100px;
+    text-align: center; 
+}
+
+.main1 .text2{
+    font-size: 16px;
+}
+
+.main1 hr{
+    margin-top: 35px;
+    width: 45px;
+    padding: 1px;
+    background: white;
+}
+
+.main1 .btn{
+    height: 55px;
+    width: 165px;
+    margin-top: 45px;
+    border-radius: 50px;
+    background: white;
+    border: none;
+    color: black;
+}
+
+.main14 .btn:hover{
+    background: whitesmoke;
+}
+
+.image1{
+    height: 500px;
+}
+.image1 .main3{
+    height: 250px;
+    color: black;
+    padding-top: 100px;
+    text-align: center; 
+}
+
+.image1 .main3 hr{
+    margin-top: 35px;
+    width: 45px;
+    padding: 1px;
+    background: tomato;
+}
+.image1 .container .row{
+    text-align: center;
+}
+
+.image2 .container-fluid{
+    padding: 0;
+}
+
+.image2 .container-fluid .row{
+    text-align: center;
+}
+
+.hover .color{
+    width: 100%;
+    height: 244px;
+    transition: 0.2s;
+    background: tomato;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    opacity: 0;
+}
+
+.hover .category{
+    color: white;
+    transition: 0.2s;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 200px;
+    opacity: 0;
+}
+
+.hover .projectname{
+    color: white;
+    transition: 0.2s;
+    position: absolute;
+    z-index: 3;
+    top: 120px;
+    left: 175px;
+    opacity: 0;
+    font-size: 21px;
+}
+
+.hover:hover .color{
+    opacity: 0.5;
+}
+
+.hover:hover .category{
+    opacity: 0.7;
+}
+
+.hover:hover .projectname{
+    opacity: 1;
+}
+
+.main4{
+    height: 400px;
+    color: white;
+    background-color: #343a40;
+    padding-top: 100px;
+    text-align: center; 
+}
+
+.main4 .btn{
+    height: 55px;
+    width: 185px;
+    margin-top: 45px;
+    border-radius: 50px;
+    background: white;
+    border: none;
+    color: black;
+    
+}
+.main4 .btn:hover{
+    background: whitesmoke;
+}
+
+/*footer*/
+
+.coppy{
+    text-align: center;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.coppy p{
+    padding-top: 20px;
+}
+.menuthem{
+    background-color: white;
+    transition: 0.5s;
+}
